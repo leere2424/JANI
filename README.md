@@ -31,7 +31,7 @@
       <table align="center" width="105">
         <tr>
           <td align="center" height="120">
-            <img src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-minus-princess-party-little-princess-disney-princess-princess-word-clip-art-png-image_11917553.png"
+            <img src="https://i.namu.wiki/i/1tX0qTaEG_tGOksS0Pcjqx-xSyVJrizKgQG0qKQ-kOChOdx7xI2wh_64j8PdXXoL86pm3iY5DOjBfLJLhirzbKgXcmnBbiGa4G2nacWl7AtgI7cUWYo-YU3lnlGlXIk69YqSFPBqYCzs2QV1Ac-z0w.webp"
                  width="70" height="95"
                  style="object-fit:contain;">
           </td>
@@ -50,7 +50,7 @@
       <table align="center" width="105">
         <tr>
           <td align="center" height="120">
-            <img src="https://i.namu.wiki/i/kPzxNcP4pgo-Jpmjx3Vvm6170KwVVt5-dOgc4TKSrC0aqWXIylSKg067jLtutTsaqAx9m5BO9Cy7n2JrpnPTHg.webp"
+            <img src="https://i.namu.wiki/i/9gOVdl4KoXO4W0AlvHHRjrVn7B811YezMz2fPsvvyYQoh2VYkNCgdDY88yraicV6ZgUvzpM8VGPriXZoMq6EOPOr7PAZX3TfJm9ASPl--yWKhuKex2e57U_iaH5OsZwMyWat4bqn7RSHz5TBF41KDA.webp"
                  width="70" height="95"
                  style="object-fit:contain;">
           </td>
@@ -70,7 +70,7 @@
       <table align="center" width="105">
         <tr>
           <td align="center" height="120">
-            <img src="https://i.namu.wiki/i/ri2QB018wn_8-4K61h24Qa3ZbJaUnIMqT39Q5-g4rOPs-lvFtdRxRmqsiEcqm2x5MG2BSIoNFaEPTEIaPa3idQ.webp"
+            <img src="https://i.namu.wiki/i/tgS8umpyIrZq9wV7LeD0JIqpLoovimCrZmoHgBh2cFQmDSrawg3ZNFdcPbVTcu9zyIcJ7QS35Coj1DjEDKER76VIA_i3DWgAHRVb9AqtHctFyWY7kT_Y-6X36I3BKiqH6GDD_eyIBvh2BK7DU1Hr0A.webp"
                  width="70" height="95"
                  style="object-fit:contain;">
           </td>
@@ -89,7 +89,7 @@
       <table align="center" width="105">
         <tr>
           <td align="center" height="120">
-            <img src="https://i.namu.wiki/i/QTEA2y9Z3YSbwNh_RpglbT9Q-yVBCAhEBcnr_GmUhWoR6DbuZNr5CfFEWS5C2qd0pBcZ-KpvCQFehPMUXZdriQ.webp"
+            <img src="https://i.namu.wiki/i/mJpilepKlxdP9GW0tjkDHFpaSIjoHjrXNKyUxlCAw5Me0qxIG5w3Ap0MewR_ex7rch3Sra0QihtFiDXi8bIzhA.webp"
                  width="70" height="95"
                  style="object-fit:contain;">
           </td>
@@ -107,7 +107,7 @@
       <table align="center" width="105">
         <tr>
           <td align="center" height="120">
-            <img src="https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/2fG8/image/v4zT6WFl7KCLDMlxbFJgBEwlfWw.jpg"
+            <img src="https://i.namu.wiki/i/XJ98dasllnVQ3llmmtGb1_t_V15id0uV9dIPjnPPKlGaR2-Ud3As1w0Jy8XjBSa4GkgwII_lwmbWRPwspKbd4TwcQXoVU6wx_c6Hc5vVi3SY_d_g6rzIb0_XPV7Kli-SGCtJOGGEkWDSIUa2MJ2V-g.webp"
                  width="70" height="95"
                  style="object-fit:contain;">
           </td>
@@ -134,7 +134,7 @@
   <tr>
     <td style="border:1px solid #d0d7de; padding:12px;"><b>김지윤</b></td>
     <td style="border:1px solid #d0d7de; padding:12px; text-align:left;">
-      Engagement 기반 RFM 테이블 설계 및 구축, 데이터 전처리 함수 모듈화, 분류 모델 비교 모듈 설계, K-means 클러스터링 수행, 군집별 사용자 행동 특성 분석 및 인사이트 도출
+      Engagement 기반 RFM 테이블 설계, 데이터 전처리 및 모델링 모듈화, K-means 클러스터링 및 사용자 유형 분석
     </td>
   </tr>
 
@@ -148,14 +148,14 @@
   <tr>
     <td style="border:1px solid #d0d7de; padding:12px;"><b>박소윤</b></td>
     <td style="border:1px solid #d0d7de; padding:12px; text-align:left;">
-      데이터 전처리 및 EDA, 주 단위 시계열 기반 고객 이탈률 지표 설계, 지리적 정 기반 데이터 시각화 및 지역별 이탈 현황 분석, 머신러닝 하이퍼파라미터 튜닝을 통한 이탈 예측 모델 최적화 및 고도화, 분석 프로세스 논리 구조화 및 인사이트 도출 기반 발표 PPT 제작
+      데이터 전처리, 데이터 분석 및 시각화, 머신러닝 모델 최적화 및 고도화 , 발표 PPT 제작
     </td>
   </tr>
 
   <tr>
     <td style="border:1px solid #d0d7de; padding:12px;"><b>윤지혜</b></td>
     <td style="border:1px solid #d0d7de; padding:12px; text-align:left;">
-      EDA 기반 가설 검증 시각화 분석, 분류 모델 성능 비교를 통한 최적 모델 선정, 하이퍼파라미터 튜닝을 통한 모델 성능 최적화
+      EDA 기반 가설 검증 시각화 분석, 최적 모델 선정, 하이퍼파라미터 튜닝을 통한 모델 성능 최적화
     </td>
   </tr>
 
@@ -169,7 +169,7 @@
   <tr>
     <td style="border:1px solid #d0d7de; padding:12px;"><b>최수아</b></td>
     <td style="border:1px solid #d0d7de; padding:12px; text-align:left;">
-      웹 크롤링 설계 및 구현, 데이터 수집·전처리·정제
+      데이터 전처리 총괄 및 AI 데이터 전처리 결과서 작성, EDA 수행, 가설 설정 및 검증, ERD 설계, Notion·회의록·README 작성
     </td>
   </tr>
 
@@ -180,10 +180,10 @@
 
 # 실행 환경 (Environment)
 
-- Python 3.10+ ⇒ 
+- Python 3.11 ⇒ 
   - Streamlit 1.30+
   - 주요 라이브러리: pandas, numpy, scikit-learn, lightgbm, catboost, shap, matplotlib, seaborn
-  - 딥러닝 프레임워크: pytorch (또는 tensorflow)
+  - 머신러닝 프레임워크: pytorch
 
 ---
 
@@ -272,6 +272,48 @@ erDiagram
 - `tenure_days`: `signup_date`로부터 생성한 가입 경과일
 
 최종적으로 `model_df`는 고객 행동 데이터와 지역 소득 데이터를 결합한 고객 이탈 예측용 피처 테이블이다.
+
+---
+
+## 1.2. 프로젝트 구조 및 모듈 설계
+
+```text
+JANI/
+├── 01_data/                      # 데이터 폴더
+│   ├── raw/                      # 원본 데이터
+│   │   ├── acs2015_census_tract_data.csv   # 지역 인구/사회경제 데이터
+│   │   └── train.csv             # 고객 행동 데이터
+│   └── processed/                # 전처리 완료 데이터
+│       └── model_df.csv          # 모델 학습용 최종 데이터셋
+│
+├── 02_notebooks/                 # 분석 및 실험 노트북
+│   ├── 01_EDA_and_Preprocessing/
+│   │   └── preprocessing_eda_mapping.ipynb # 데이터 탐색 및 전처리
+│   ├── 02_Modeling/
+│   │   ├── 01_model_experiments.ipynb      # 다양한 모델 실험
+│   │   └── 02_model_comparison.ipynb       # 모델 성능 비교
+│   └── 03_rfm_clustering.ipynb             # RFM 기반 고객 군집 분석
+│
+├── 03_models/                    # 학습된 모델 저장
+│   ├── final_xgb_model.pkl       # 최종 XGBoost 모델
+│   ├── xgb_encoders.pkl          # 범주형 인코딩 객체
+│   └── xgb_scaler.pkl            # 스케일링 객체
+│
+├── 04_app/
+│   └── app.py                    # Streamlit 대시보드 실행 파일
+│
+├── catboost_info/                # CatBoost 학습 로그
+├── src/                          # 재사용 가능한 코드 모듈
+│   ├── __init__.py
+│   ├── models.py                 # 모델 학습 및 평가 함수
+│   ├── preprocessing.py          # 데이터 전처리 함수
+│   └── utils.py                  # 공통 유틸 함수
+│
+├── .gitignore                    # Git 제외 파일 설정
+├── LICENSE                       # 프로젝트 라이선스
+├── models_roc.png                # 모델 ROC Curve 결과 이미지
+└── README.md                     # 프로젝트 설명 문서
+```
 
 ---
 
