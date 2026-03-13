@@ -211,3 +211,9 @@ marimo/_lsp/
 __marimo__/
 
 /data
+
+# catboost logs
+catboost_info/
+
+# jupyter
+.ipynb_checkpoints/
