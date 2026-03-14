@@ -1,35 +1,51 @@
-import matplotlib.pyplot as plt
-import matplotlib.cm as cm
-from sklearn.metrics import auc, roc_curve
-from sklearn.cluster import KMeans
-from sklearn.metrics import silhouette_samples, silhouette_score
-from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
-
-def roc_graph(model, y_train, y_train_pred, y_test, y_test_pred):
-    fpr_tr, tpr_tr, _ = roc_curve(y_train, y_train_pred)
-    fpr_te, tpr_te, _ = roc_curve(y_test, y_test_pred)
-
-    auc_tr = auc(fpr_tr, tpr_tr)
-    auc_te = auc(fpr_te, tpr_te)
-
-    plt.figure(figsize=(5, 4))
-    plt.plot(fpr_tr, tpr_tr, label=f"Train ROC (AUC={auc_tr:.3f})")
-    plt.plot(fpr_te, tpr_te, label=f"Test ROC (AUC={auc_te:.3f})")
-    plt.plot([0, 1], [0, 1], linestyle="--", label="Random")
-    plt.title(f'{model} ROC Curve (Train vs Test)')
-    plt.xlabel("False Positive Rate (FPR)")
-    plt.ylabel("True Positive Rate (TPR)")
-    plt.legend()
-    plt.grid(True)
-
-    plt.show()
+import matplotlib.cm as cm
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import silhouette_samples, silhouette_score
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
 
 
+def make_rfm_table(csv_root):
+    model_df = pd.read_csv(csv_root)
+
+    rfm_df = model_df.assign(
+        activity_score = model_df["notifications_clicked"],
+        adjusted_frequency = model_df["weekly_songs_played"] * (1 - model_df["song_skip_rate"]),
+        Monetary = model_df["weekly_hours"],
+        Engagement = (
+            model_df["num_playlists_created"] +
+            model_df["num_platform_friends"] +
+            model_df["num_shared_playlists"]
+        ),
+        subscription_risk = model_df["num_subscription_pauses"],
+        support_pressure = model_df["customer_service_inquiries"]
+    )[[
+        "activity_score",
+        "adjusted_frequency",
+        "Monetary",
+        "Engagement",
+        "subscription_risk",
+        "support_pressure"
+    ]]
+
+    mapping = {
+        "Low": 0,
+        "Medium": 1,
+        "High": 2,
+    }
+
+    rfm_df['support_pressure'] = rfm_df['support_pressure'].map(mapping)
+
+
+    scaler = StandardScaler()
+
+    rfm_scaled_df = scaler.fit_transform(rfm_df)
+    rfm_scaled_df = pd.DataFrame(rfm_scaled_df, columns=rfm_df.columns, index=rfm_df.index)
+
+    return rfm_df, rfm_scaled_df
 
 
 def elbow_graph(data_df):

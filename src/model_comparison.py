@@ -4,7 +4,6 @@ from sklearn.svm import SVC
 from xgboost import XGBClassifier
 from lightgbm import LGBMClassifier, early_stopping
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
 
 # LogisticRegression 모델 정의 및 학습 함수
 def train_logreg(X_tr, y_tr):
@@ -125,43 +124,6 @@ def train_rf(X_tr, y_tr):
     )
 
     return model
-
-
-# 모델 예측 및 스코어 반환
-def predict_and_score(model, X, y):
-
-    # 예측
-    y_pred = model.predict(X)
-
-    # 확률값 (가능한 경우)
-    if hasattr(model, "predict_proba"):
-        y_proba = model.predict_proba(X)[:, 1]
-    else:
-        y_proba = None
-
-    # 점수 계산
-    acc = accuracy_score(y, y_pred)
-    f1 = f1_score(y, y_pred)
-
-    if y_proba is not None:
-        roc = roc_auc_score(y, y_proba)
-    else:
-        roc = None
-
-    print(f"\n{model.__class__.__name__} Results")
-    print(f"Accuracy : {acc:.4f}")
-    print(f"F1 Score : {f1:.4f}")
-    if roc is not None:
-        print(f"ROC AUC  : {roc:.4f}")
-
-    return {
-        "model": model.__class__.__name__,
-        "accuracy": acc,
-        "f1": f1,
-        "roc_auc": roc,
-        "y_pred": y_pred,
-        "y_proba": y_proba
-    }
 
 # 모델 비교 함수
 def compare_models(X_tr, X_tr_prep, X_val, X_val_prep, y_tr, y_val):
